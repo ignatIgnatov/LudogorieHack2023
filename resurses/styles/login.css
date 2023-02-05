@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(189,238,174,1) 24%, rgba(148,218,233,1) 100%);
+}
+
+section {
+    border: 1px solid rgb(111, 149, 192);
+    border-radius: 18px;
+    width: 40vw;
+    height: auto;
+    /* margin-top: 20vh;
+    margin-left: 35vw; */
+    vertical-align: middle;
+    margin: 10% auto ;
+    box-shadow: 0px 0px 15px 7px rgb(0, 89, 255);
+}
+
+h1 {
+    font-family:  'Itim', cursive;
+    color: blue;
+    text-shadow: 3px 0px 10px #00b7ff;
+    font-size: 3rem;
+    margin-top: 10% 0;
+    padding: 1% 10%;
+}
+
+form {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Itim', cursive;
+    color: blue;
+}
+label, input {
+    margin-bottom: 4%;
+}
+.login {
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    animation-duration: 04.s;
+    background-color:rgb(176, 208, 248);
+    color: blue;
+    border-radius: 50px;
+    padding: 2% 8%;
+    cursor: pointer;
+    border: hidden;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 15px 5px darkblue;
+    text-shadow: 1px 0px 5px #00b7ff;
+    
+}
+
+input {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid blue;
+    background-color: #d4eaf3;
+}
+
+.login:hover{
+    color: black;
+    background-color: aqua;
+}
+
+footer {
+    font-family: 'Itim', cursive; 
+    color: rgb(0, 162, 255);
+}
