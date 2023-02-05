@@ -14,15 +14,15 @@ html {
   width: 100%;
   border-bottom: 2px solid rgb(0, 225, 255);
   border-top: 2px solid rgb(0, 225, 255);
-  padding-top: 2%;
-  padding-bottom: 1%;
+  padding-top: 10px;
+  padding-bottom: 6px;
   box-shadow: 0px 3px 10px 0px rgb(0, 174, 255);
   border-radius: 6px;
 }
 
 .super-header img {
-  width: 10%;
-  height: 10%;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   position: relative;
 }
@@ -60,81 +60,60 @@ html {
   text-shadow: 3px 0px 10px #3700ff;
 }
 
-article {
+section {
   border: 1px solid rgb(111, 149, 192);
   border-radius: 18px;
-  width: 65vw;
+  width: 40vw;
   height: auto;
-  margin-top: 0vh;
-  margin-left: 17vw;
-  margin-bottom: 8vh;
-  background-image: url(/resurses/styles/Clipboard01.jpg);
-  background-position: center;
+  /* margin-top: 20vh;
+    margin-left: 35vw; */
+  vertical-align: middle;
+  margin: 10% auto;
   box-shadow: 0px 0px 15px 7px rgb(0, 89, 255);
 }
 
 h1 {
-  font-size: 4rem;
-  text-align: center;
-  padding: 1% 5%;
   text-shadow: 3px 0px 10px #00b7ff;
+  font-size: 3rem;
+  margin-top: 10% 0;
+  padding: 1% 10%;
 }
 
-.login ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+form {
+  font-size: 1.2rem;
   text-align: center;
+  margin: 5%;
 }
-
-.login li {
-  background-color: rgb(189, 210, 235);
+label,
+input {
+  margin-bottom: 4%;
+}
+.login {
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation-duration: 04s;
+  background-color: rgb(176, 208, 248);
   border-radius: 50px;
-  margin: 5% 32%;
-  padding: 1% 2%;
-  transition-duration: 0.4s;
+  padding: 2% 8%;
   cursor: pointer;
+  border: hidden;
+  letter-spacing: 2px;
   box-shadow: 0px 0px 15px 5px darkblue;
   text-shadow: 1px 0px 5px #00b7ff;
 }
 
-.login a {
-  display: block;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  font-weight: bold;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer;
+input {
+  font-family: "Itim", cursive;
+  color: blue;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid blue;
+  background-color: #d4eaf3;
 }
-.login li:hover {
-  background-color: aqua;
-}
-.login a:hover {
+
+.login:hover {
   color: black;
-  text-shadow: 3px 0px 10px #3700ff;
-}
-
-@media (max-width: 900px) {
-  /* article {
-        margin-top: 10vh;
-        margin-left: 17vw;
-    } */
-  h1 {
-    font-size: 2rem;
-  }
-  .login a {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1rem;
-  }
-  .login a {
-    font-size: 0.5rem;
-  }
+  background-color: aqua;
 }
 
 footer {

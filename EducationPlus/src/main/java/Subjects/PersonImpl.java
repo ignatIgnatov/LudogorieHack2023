@@ -103,7 +103,5 @@ public class PersonImpl extends User implements Person {
     public void remove(EventImpl event) {
         events.remove(event);
     }
-
-
 }
 
