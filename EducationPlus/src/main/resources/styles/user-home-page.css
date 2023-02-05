@@ -60,6 +60,17 @@ html {
   text-shadow: 3px 0px 10px #3700ff;
 }
 
+.photo {
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+img {
+  border-radius: 8px;
+}
+
 section {
   width: 50vw;
   padding-top: 10px;
