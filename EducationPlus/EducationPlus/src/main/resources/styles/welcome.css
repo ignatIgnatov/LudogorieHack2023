@@ -60,68 +60,86 @@ html {
   text-shadow: 3px 0px 10px #3700ff;
 }
 
-section {
+article {
   border: 1px solid rgb(111, 149, 192);
   border-radius: 18px;
-  width: 40vw;
+  width: 65vw;
   height: auto;
-  /* margin-top: 20vh;
-    margin-left: 35vw; */
-  vertical-align: middle;
-  margin: 10% auto;
+  margin-top: 0vh;
+  margin-left: 17vw;
+  margin-bottom: 8vh;
+  background-image: url(/resurses/styles/Clipboard01.jpg);
+  background-position: center;
   box-shadow: 0px 0px 15px 7px rgb(0, 89, 255);
 }
 
 h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 1% 5%;
   text-shadow: 3px 0px 10px #00b7ff;
-  font-size: 3rem;
-  margin-top: 10% 0;
-  padding: 1% 10%;
 }
 
-form {
-  font-size: 1.2rem;
+.login ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   text-align: center;
-  margin: 5%;
 }
-label,
-input {
-  margin-bottom: 4%;
-}
-.login {
-  font-weight: bold;
-  font-size: 1.2rem;
-  animation-duration: 04s;
-  background-color: rgb(176, 208, 248);
+
+.login li {
+  background-color: rgb(189, 210, 235);
   border-radius: 50px;
-  padding: 2% 8%;
+  margin: 5% 32%;
+  padding: 1% 2%;
+  transition-duration: 0.4s;
   cursor: pointer;
-  border: hidden;
-  letter-spacing: 2px;
   box-shadow: 0px 0px 15px 5px darkblue;
   text-shadow: 1px 0px 5px #00b7ff;
 }
 
-input {
-  font-family: "Itim", cursive;
-  color: blue;
-  border-radius: 6px;
-  overflow: hidden;
-  border: 2px solid blue;
-  background-color: #d4eaf3;
+.login a {
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
-
-.login:hover {
-  color: black;
+.login li:hover {
   background-color: aqua;
+}
+.login a:hover {
+  color: black;
+  text-shadow: 3px 0px 10px #3700ff;
 }
 
 footer {
   color: rgb(0, 162, 255);
 }
 
+@media (max-width: 900px) {
+  /* article {
+        margin-top: 10vh;
+        margin-left: 17vw;
+    } */
+  h1 {
+    font-size: 2rem;
+  }
+  .login a {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 600px) {
-  
+  h1 {
+    font-size: 1rem;
+  }
+  .login a {
+    font-size: 0.5rem;
+  }
+
   .super-header .contacts a {
     font-size: 0.5rem;
   }
@@ -129,16 +147,8 @@ footer {
   footer {
     font-size: 0.5rem;
   }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  input {
-    width: 70%;
-  }
-
-  .login {
-    font-size: 0.6rem;
-  }
 }
+
+
+
+

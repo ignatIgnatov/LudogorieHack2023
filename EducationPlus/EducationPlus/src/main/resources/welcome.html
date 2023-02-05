@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register Company</title>
-    <link rel="stylesheet" href="/styles/register-company.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Wellcome</title>
+    <link rel="stylesheet" href="styles/welcome.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
+
   <body>
     <header class="super-header">
       <img src="/logo.bmp" alt="" />
@@ -34,28 +35,27 @@
         </nav>
       </div>
     </header>
-    <section>
-      <h1>Register:</h1>
 
-      <form action="POST">
-        <label for="username">Username*</label><br />
-        <input type="text" required="true" /><br />
-
-        <label for="password">Password*</label><br />
-        <input type="password" required="true" /><br />
-
-        <label for="cname">Company Name*</label><br />
-        <input type="text" required="true" /><br />
-
-        <label for="town">Town*</label><br />
-        <input type="text" required="true" /><br />
-
-        <input type="submit" value="Create Accaunt" class="btn">
-      </form>
-    </section>
-
+    <div class="second-header">
+      <h1>Welcome to Education+</h1>
+    </div>
+    <article class="login">
+      <ul>
+        <li>
+          <a href="/login.html">Login</a>
+        </li>
+        <li>
+          <a href="/register-person.html"> Register as user </a>
+        </li>
+        <li>
+          <a href="/register-company.html"> Register as company </a>
+        </li>
+      </ul>
+    </article>
     <footer>
-        <p class="all-rights-reserved">--- © producted by JavaCrew --- Ludogorie Hack 2023 ---</p>
+      <p class="all-rights-reserved">
+        --- © producted by JavaCrew --- Ludogorie Hack 2023 ---
+      </p>
     </footer>
   </body>
 </html>
