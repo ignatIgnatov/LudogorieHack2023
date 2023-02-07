@@ -70,6 +70,9 @@ section {
   vertical-align: middle;
   margin: 10% auto;
   box-shadow: 0px 0px 15px 7px rgb(0, 89, 255);
+  background-image: url(/styles/Clipboard01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
